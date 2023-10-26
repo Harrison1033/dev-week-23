@@ -7,7 +7,9 @@ Sistema de aluguéis de carro
 classDiagram
     class Car {
         - car: String
-        - information: <link>Information</link>
+        - information: Information
+        - customerBase: CustomerBase
+        - rentalStatus: RentalStatus
     }
     
     class Information {
